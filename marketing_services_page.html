@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Services - Civic Services LLC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+            <img src="images/WhatsApp Image 2025-07-29 at 2.46.54 PM.jpeg" alt="" class="logo">
+            
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            
+            <ul class="header-menus">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_page.html">About</a></li>
+                <li><a href="marketing_services_page.html" class="active">Marketing Services</a></li>
+                <li><a href="dispatch_page.html">Dispatch Services</a></li>
+            </ul>
+            
+            <button class="primary-btn">Let's Talk</button>
+        </header>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h2>Civic Services LLC</h2>
+            <h1>Marketing Services</h1>
+        </div>
+    </section>
+
+    <section class="marketing-services-section section">
+        <div class="marketing-services-content">
+            <h2 class="section-subtitle">Our Expertise</h2>
+            <h1 class="section-title">Digital Marketing That Delivers</h1>
+            <p class="section-desc">At Civic Services LLC, we understand that effective marketing drives business growth. Our comprehensive digital marketing solutions are designed to enhance your online presence, engage your target audience, and generate measurable results. From increasing your search engine visibility to creating compelling content that converts, we provide the strategic expertise and hands-on execution your business needs to thrive in today's competitive digital landscape.</p>
+        </div>
+
+        <div class="marketing-services-cards">
+            <div class="marketing-service-card">
+                <div class="marketing-service-card-content">
+                    <i class="fa-solid fa-search"></i>
+                    <h2>Boost Your Visibility with SEO</h2>
+                    <p>Improve your search engine rankings and drive organic traffic to your website. Our SEO strategies enhance your brand credibility and ensure your business appears when customers are searching for your services.</p>
+                    <button class="primary-btn">Learn More</button>
+                </div>
+            </div>
+
+            <div class="marketing-service-card">
+                <div class="marketing-service-card-content">
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <h2>Engage Your Audience with SMM</h2>
+                    <p>Build brand awareness and foster community engagement through strategic social media marketing. We help you connect with your audience across all major social platforms and generate quality leads.</p>
+                    <button class="primary-btn">Start Campaign</button>
+                </div>
+            </div>
+
+            <div class="marketing-service-card">
+                <div class="marketing-service-card-content">
+                    <i class="fa-solid fa-mouse-pointer"></i>
+                    <h2>Drive Instant Results with PPC</h2>
+                    <p>Get immediate visibility and measurable ROI with targeted pay-per-click advertising. Our PPC campaigns on Google and social platforms are designed to drive qualified traffic and maximize your advertising budget.</p>
+                    <button class="primary-btn">Get Started</button>
+                </div>
+            </div>
+
+            <div class="marketing-service-card">
+                <div class="marketing-service-card-content">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                    <h2>Nurture Leads with Content & Email</h2>
+                    <p>Convert prospects into loyal customers through personalized email campaigns and compelling content marketing. We create storytelling strategies and newsletters that engage, inform, and drive customer retention.</p>
+                    <button class="primary-btn">Explore Services</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="images/WhatsApp Image 2025-07-29 at 2.46.54 PM.jpeg" alt="" class="logo">
+            <p>At Civic Services LLC, we specialize in providing dependable freight and logistics services across the nation. With a strong focus on safety, punctuality, and customer satisfaction, we are committed to delivering peace of mind with every shipment.</p>
+        </div>
+        <div class="footer-content">
+            <h3>Contact Details:</h3>
+            <div class="contact-group">
+                <i class="fa-solid fa-location-dot"></i>
+                <a href="">312 W 2ND ST STE 5095 CASPER WY 82601</a>
+            </div>
+            <div class="contact-group">
+                <i class="fa-solid fa-phone"></i>
+                <a href="">+1 307-205-6589</a>
+            </div>
+            <div class="contact-group">
+                <i class="fa-solid fa-phone"></i>
+                <a href="">+1 406-559-9513</a>
+            </div>
+            <div class="contact-group">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="">main@civicservicesllc.com</a>
+            </div>
+        </div>
+        <div class="footer-content">
+            <h3>Quick Links:</h3>
+            <ul class="footer-menus">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_page.html">About</a></li>
+                <li><a href="marketing_services_page.html" class="active">Marketing Services</a></li>
+                <li><a href="dispatch_page.html">Dispatch Services</a></li>
+            </ul>
+        </div>
+        <div class="footer-content">
+            <h3>Follow US:</h3>
+            <div class="social-icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const headerMenus = document.querySelector(".header-menus");
+        
+        menuToggle.addEventListener("click", function() {
+            headerMenus.classList.toggle("active");
+            if (headerMenus.classList.contains("active")) {
+                this.innerHTML = '<i class="fa-solid fa-xmark"></i>';
+            } else {
+                this.innerHTML = '<i class="fa-solid fa-bars"></i>';
+            }
+        });
+    </script>
+</body>
+</html>
