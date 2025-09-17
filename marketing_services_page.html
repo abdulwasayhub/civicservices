@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-            <img src="images/WhatsApp Image 2025-07-29 at 2.46.54 PM.jpeg" alt="" class="logo">
+            <img src="images/logo.png" alt="" class="logo">
             
             <button class="menu-toggle" id="menu-toggle">
                 <i class="fa-solid fa-bars"></i>
@@ -45,7 +45,6 @@
                     <i class="fa-solid fa-search"></i>
                     <h2>Boost Your Visibility with SEO</h2>
                     <p>Improve your search engine rankings and drive organic traffic to your website. Our SEO strategies enhance your brand credibility and ensure your business appears when customers are searching for your services.</p>
-                    <button class="primary-btn">Learn More</button>
                 </div>
             </div>
 
@@ -54,7 +53,6 @@
                     <i class="fa-solid fa-share-nodes"></i>
                     <h2>Engage Your Audience with SMM</h2>
                     <p>Build brand awareness and foster community engagement through strategic social media marketing. We help you connect with your audience across all major social platforms and generate quality leads.</p>
-                    <button class="primary-btn">Start Campaign</button>
                 </div>
             </div>
 
@@ -63,7 +61,6 @@
                     <i class="fa-solid fa-mouse-pointer"></i>
                     <h2>Drive Instant Results with PPC</h2>
                     <p>Get immediate visibility and measurable ROI with targeted pay-per-click advertising. Our PPC campaigns on Google and social platforms are designed to drive qualified traffic and maximize your advertising budget.</p>
-                    <button class="primary-btn">Get Started</button>
                 </div>
             </div>
 
@@ -72,7 +69,6 @@
                     <i class="fa-solid fa-envelope-open-text"></i>
                     <h2>Nurture Leads with Content & Email</h2>
                     <p>Convert prospects into loyal customers through personalized email campaigns and compelling content marketing. We create storytelling strategies and newsletters that engage, inform, and drive customer retention.</p>
-                    <button class="primary-btn">Explore Services</button>
                 </div>
             </div>
         </div>
@@ -80,7 +76,7 @@
 
     <footer class="footer">
         <div class="footer-content">
-            <img src="images/WhatsApp Image 2025-07-29 at 2.46.54 PM.jpeg" alt="" class="logo">
+            <img src="images/logo.png" alt="" class="logo">
             <p>At Civic Services LLC, we specialize in providing dependable freight and logistics services across the nation. With a strong focus on safety, punctuality, and customer satisfaction, we are committed to delivering peace of mind with every shipment.</p>
         </div>
         <div class="footer-content">
@@ -121,19 +117,6 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        const menuToggle = document.getElementById("menu-toggle");
-        const headerMenus = document.querySelector(".header-menus");
-        
-        menuToggle.addEventListener("click", function() {
-            headerMenus.classList.toggle("active");
-            if (headerMenus.classList.contains("active")) {
-                this.innerHTML = '<i class="fa-solid fa-xmark"></i>';
-            } else {
-                this.innerHTML = '<i class="fa-solid fa-bars"></i>';
-            }
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -44,6 +44,7 @@
     display: inline-block;
     width: auto;
     text-align: center;
+    text-decoration: none;
 }
 
 .header{
@@ -68,8 +69,7 @@
 }
 
 .logo{
-    width: 120px;
-    height: 70px;
+    height: 80px;
 }
 
 .header-menus{
@@ -187,18 +187,19 @@
 .services-card-content i{
     color: var(--accent-color);
     font-size: 90px;
+    margin-bottom: 20px;
 }
 
 .services-card-content h2{
-    margin-top: 30px;
-    font-size: 24px;
     color: black;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
 }
 
 .services-card-content p{
-    font-size: 16px;
-    margin-top: 30px;
     color: #6c757d;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .section-about{
@@ -221,6 +222,15 @@
 
 .section-about-content{
     width: 100%;
+}
+
+.section-about-content h1, .section-teams-content h1{
+    margin-bottom: 30px;
+}
+
+.section-about-content p, .section-teams-content p{
+    color: #6c757d;
+    margin-bottom: 40px;
 }
 
 .about-img-batch1{
@@ -290,7 +300,30 @@
 
 .section-teams-card i{
     color: var(--accent-color);
-    font-size: 90px;
+    font-size: 3rem;
+}
+
+.page-link{
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.choose-card{
+    margin-top: 30px;
+}
+
+.choose-card h3{
+    margin-bottom: 20px;
+}
+
+.section-teams-card-content h2{
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.section-teams-card-content p{
+    color: #6c757d;
 }
 
 .emergency-support{
